@@ -50,7 +50,7 @@ const Login = ({ params: { locale } }: { params: { locale: string } }) => {
                   </div>
                 </div>
                 <LoginForm />
-                <div className="relative border-b-[#9AA2AF] border-opacity-[16%] border-b pt-6">
+                {/* <div className="relative border-b-[#9AA2AF] border-opacity-[16%] border-b pt-6">
                   <div className="absolute inline-block bg-default-50 dark:bg-default-100 left-1/2 top-1/2 transform -translate-x-1/2 px-4 min-w-max text-sm text-default-500 font-normal">
                     Or continue with
                   </div>
@@ -66,7 +66,7 @@ const Login = ({ params: { locale } }: { params: { locale: string } }) => {
                   >
                     Sign up
                   </Link>
-                </div>
+                </div> */}
               </div>
               <div className="text-xs font-normal text-default-500  z-999 pb-10 text-center">
                 <Copyright />
